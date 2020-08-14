@@ -22,14 +22,14 @@
 //
 //	//读取、处理和打印剩余的输入行
 //	int i = 0;
-//	scanf("%d", &i);
+//	(void)scanf("%d", &i);
 //	while ( i )
 //	{
 //		gets_s(input, MAX_INPUT);
 //		printf("原始输入：%s\n", input);
 //		rearrange(output, input, n_c, c);
 //		printf("重新安排行：%s\n", output);
-//		scanf("%d", &i);
+//		(void)scanf("%d", &i);
 //	}
 //
 //	return EXIT_SUCCESS;//0
